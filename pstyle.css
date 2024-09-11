@@ -1,0 +1,275 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Sans-serif;
+}
+:root
+{
+    --primary-color:#1c1b1b;
+	--secondory-color:#fff;
+    --secondprimary-color:#434342;
+    --boxback-color:#1f2121;
+    --boxbacksado-color:rgba(253, 252, 253, 0.133);
+    --boxback2-color:#656563;
+    --boxbacksado2-color:rgba(45, 43, 45, 0.938);
+   
+}
+.dark_theme
+  {
+    --primary-color:#fffae6;
+	--secondory-color:#000;
+    --secondprimary-color:#fcfcf9;
+    --boxback-color:#f4f8c6;
+    --boxbacksado-color:rgba(103, 125, 134, 0.107);
+    --boxback2-color:#f6f6ed;
+    --boxbacksado2-color:rgba(2, 29, 29, 0.107);
+    
+  }
+  .icon
+  {
+    cursor: pointer;
+  }
+  body
+  {
+    background-color: var(--primary-color);
+  } 
+.nev
+{
+  background: var(--secondprimary-color);
+  padding: 20px 50px;
+  width: 100%;
+  z-index: 1;
+  position:fixed;
+  
+}
+
+.nev ul{
+    background-color:var(--secondprimary-color);
+    width: 50%;
+
+    color: var(--secondory-color);
+    font-size: 20px;
+    float: inline-end;  
+}
+.nev ul li
+{
+   
+    display: inline;
+    padding-left: 10px;
+    margin-top: -15px; 
+}
+.nev ul li a
+{
+    text-decoration: none;
+    color: var(--secondory-color);
+}
+.header
+{
+    min-height: auto; 
+    
+}
+
+.headerleft
+{
+    background: var(--primary-color);
+    color: var(--secondory-color);
+    width: 50%;
+    height: 30vw;
+    float: left;
+    margin-top: 100px; 
+    padding-top: 30px;
+    
+}
+.headerleft h1
+{
+    font-size: 60px;
+    line-height: 80px;
+    padding-left: 20%;
+    text-shadow: 2px 0px  2px  rgba(249, 246, 246, 0.253);
+    font-weight: bold;
+}
+.headerleft h2
+{
+    line-height: 50px;
+    padding-left: 20%;
+    text-shadow: 2px 0px  2px  rgba(249, 246, 246, 0.253);
+}
+
+.headerleft img
+{
+ height:100%;
+float: right;
+padding-right: 20%;
+position: relative;
+}
+.backimg
+{
+    background: var(--boxback-color);
+
+    width: 25%;
+    margin-left: 20%;
+    margin-bottom: ;
+    position: absolute;
+    height: 29.2vw;border-radius:25% 75% 49% 51% / 66% 77% 23% 34%  ;
+    
+    float: left; 
+    box-shadow: -10px -1px 5px 0px var(--boxbacksado-color),10px -1px 5px  0px var(--boxbacksado-color); 
+    /* border: 4px solid rgb(211, 8, 8); */
+    animation: bolo 1s infinite ease;
+
+}
+.aboutbackimgab{
+    border: 4px solid rgb(211, 8, 8);
+    animation: bolo 10s infinite ease;
+}
+  
+ @keyframes bolo{
+    0%
+    {
+         border:  4px solid rgb(33, 222, 33); 
+    }
+    25%
+    {
+         border:  4px solid rgb(104, 104, 212); 
+    }
+    50%
+    {
+         border:  4px solid rgb(177, 177, 73); 
+    }
+    100%
+    {
+         border:  4px solid rgb(137, 115, 119); 
+    }
+    
+} */
+
+.about
+{
+    min-height: auto; 
+}
+.abouttop
+{
+    height: 50px;
+    width: 100%;
+    background: var(--primary-color);
+}
+.aboutleft
+{
+    background-color:var(--secondprimary-color);
+    padding-top: 20px;
+    color: var(--secondory-color); 
+    width: 50%;
+    height: 40vw;
+    float: left;
+}
+
+.aboutleft h1
+{
+    line-height: 60px;
+}
+.aboutleft h2
+{
+    line-height: 40px;   
+}
+.aboutleft p
+{
+    line-height: 28px;
+    padding-left: 2%;
+    font-size: 20px;
+    padding-right: 8%;
+    text-align: justify; 
+}
+.aboutleft img
+{
+ height:100%;
+position: relative;
+padding-right:30%;
+float: left;
+}
+
+.aboutbackimga
+{
+    background:var(--boxback2-color);
+    color: var(--boxbacksado2-color);
+    width: 25%;
+    position: absolute;
+    height: 30vw;
+    border-radius:  32% 68% 68% 32% / 30% 31% 69% 70% ;  
+    float: left; 
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 30px;
+    box-shadow: -10px -1px 5px 0px var(--boxbacksado2-color),10px -1px 5px  0px var(--boxbacksado2-color); 
+    
+}
+
+.experience
+{
+    background-color:var(--primary-color);
+    height: 35vw;
+    float: left; 
+}
+.experience h1
+{
+    color: var(--secondory-color); 
+    padding-top: 20px;
+    padding-bottom: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.exw1
+{
+    color: var(--secondory-color);
+    margin-left: 5%;
+    width: 45%;
+    float: left;
+}
+
+
+.contactus
+{
+    
+    background-color:var(--primary-color);
+    width: 100%;
+    height: 35vw;
+    float: left; 
+    
+}
+.contactus h1
+{
+    color: var(--secondory-color); 
+    padding-top: 20px;
+    padding-bottom: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.contbox 
+{
+    background-color:var(--primary-color);
+    color: var(--secondory-color); 
+    width: 33%;
+    height: 20vw;
+    float: left; 
+    text-align: center;
+}
+.contbox i
+{
+    font-size: 50px;
+    color: rgb(137, 123, 172);
+}
+
+.footer
+{
+    height: auto;
+    background: var(--secondprimary-color);
+    width: 100%;
+    
+}
+.footer p
+{
+  text-align: center;
+  color: var(--secondory-color);
+  line-height: 60px;
+  
+}
